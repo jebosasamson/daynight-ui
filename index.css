@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(157, 158, 160);
+    border-radius: 100px;
+    position: relative;
+}
+
+.switch {
+    width: 150px;
+    background-color: rgb(8, 8, 8);
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    position: absolute;
+}
+
+.left {
+    left: 10px;
+    background-color: white;
+}
+
+.right {
+    right: 10px;
+    /* background-color: white; */
+}
